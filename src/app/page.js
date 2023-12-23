@@ -13,8 +13,8 @@ export default function Home() {
     
     <div  className='text-light'>
         <Header/>
-        <About/>
-        <Projects/>
+        <About id='about'/>
+        <Projects id='projects'/>
         <Contact id="contact"/>
         <Footer/>
       </div>

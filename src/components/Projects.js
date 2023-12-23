@@ -2,7 +2,7 @@ import { Project } from "./Project"
 import {projects} from '../components/assests/contentOption'
 import {motion,useInView} from 'framer-motion'
 import { useRef } from "react"
-export const Projects = ()=>{
+export const Projects = ({id})=>{
     const ref = useRef(null)
     const isinview = useInView(ref,{once:true})
     return(
