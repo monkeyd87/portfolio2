@@ -5,7 +5,7 @@ import { faHtml5,faReact,faBootstrap,faCss3, faGit, faGithub, faGithubAlt, faGit
 
 export const Footer = ()=>{
     return(
-        <div className='bg-gray-800 w-full p-3'>
+        <div className='bg-gray-900 w-full p-3'>
             <div>
                 <h3 className='text-center'>Hire Me!!</h3>
             </div>
