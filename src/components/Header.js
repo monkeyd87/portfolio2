@@ -14,8 +14,8 @@ export const Header = ()=>{
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto justify-content-end text-white">
-            <Nav.Link className='text-light' href="#home">About</Nav.Link>
-            <Nav.Link className='text-light' href="#projects">Projects</Nav.Link>
+            <Nav.Link className='text-light' href="#about">About</Nav.Link>
+            <Nav.Link className='text-light' href="#project">Projects</Nav.Link>
             <Nav.Link className='text-light' href="#contact">Contact</Nav.Link>
           </Nav>
           <Navbar.Text>
