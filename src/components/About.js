@@ -20,7 +20,7 @@ export const About = ()=>{
             >
                 <h1 className="border-bottom">Web Developer</h1>
                 <div className="" style={{textOverflow:'ellipsis'}}>
-                    <p>Hi there! My name is Dennis Jackson. I taught myself Python during the lockdown and then started learning JavaScript using Codecademy. I recently graduated from UC Davis' boot camp, where I gained a deeper understanding of web development and further honed my programming skills. I am excited to continue learning and growing as a programmer, and to apply my skills to solve challenging problems</p>
+                    <p>Hi there! My name is Dennis Jackson. I taught myself Python during the lockdown and then started learning JavaScript using Codecademy. I recently graduated from UC Davis boot camp, where I gained a deeper understanding of web development and further honed my programming skills. I am excited to continue learning and growing as a programmer, and to apply my skills to solve challenging problems</p>
                 </div>
             </motion.div>
             <div className=" rounded-circle w-50"style={{background: 'radial-gradient(white 10%, transparent 70%)',position:'relative'}} >

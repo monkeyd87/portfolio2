@@ -15,7 +15,7 @@ export const Projects = ()=>{
                     {projects.map((project,index)=>{
 
                         return(
-                            <motion.div key={index}ref={ref} className=" col-sm-5 col-lg-3"
+                            <motion.div key={index} ref={ref} className=" col-sm-5 col-lg-3"
                                 initial={{
                                     scale:0,
                                     opacity:0,
