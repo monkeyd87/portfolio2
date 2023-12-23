@@ -62,8 +62,8 @@ const introOptions = {
          title: 'School Incident Reporter',
          img: '/images/incident.png',
          technologies_used: 'HTML, CSS, JavaScript, React, Node,',
-         github_link: 'https://github.com/zuetesei/cook-book',
-         deployed_link: 'https://onlycooks.herokuapp.com/',
+         github_link: 'https://github.com/monkeyd87/incidentreport',
+         deployed_link: 'https://wlcpincidentreport-b83c7d609aa0.herokuapp.com/#/home',
      },
     
      {
