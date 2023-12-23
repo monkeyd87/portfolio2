@@ -3,7 +3,7 @@ import pic from './assests/image6.png'
 import {motion} from 'framer-motion'
 export const About = ({id})=>{
     return(
-        <div className="w-100  d-flex justify-content-lg-center justify-content-center align-items-sm-center align-items-center flex-lg-row flex-column-reverse flex-md-row flex-sm-column flex-sm-column-reverse pl-10  " >
+        <div className="w-100  d-flex justify-content-lg-center justify-content-center align-items-sm-center align-items-center flex-lg-row flex-column-reverse flex-md-row flex-sm-column flex-sm-column-reverse pl-10  " id={id}>
            
             <motion.div className=" d-flex flex-col align-items-center justify-content-center  w-50 "
                 initial={{

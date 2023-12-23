@@ -57,7 +57,14 @@ const introOptions = {
          technologies_used: 'JavaScript,MongoDB,HTML,CSS',
          github_link:'https://github.com/monkeyd87/aesthete' ,
          deployed_link:'https://murmuring-inlet-34782.herokuapp.com/',
-     },
+        },
+        {
+            title: 'Quality Time',
+            img: '/images/qualitytime.png',
+            technologies_used: 'HTML, CSS, JavaScript',
+            github_link:'https://joel57.github.io/Quality_Time/' ,
+            deployed_link:'https://monkeyd87.github.io/guessWhomGame//',
+        },
      {
          title: 'School Incident Reporter',
          img: '/images/incident.png',
@@ -66,6 +73,13 @@ const introOptions = {
          deployed_link: 'https://wlcpincidentreport-b83c7d609aa0.herokuapp.com/#/home',
      },
     
+     {
+         title: 'Weather App',
+         img: '/images/weather.png',
+         technologies_used: 'HTML, CSS, JavaScript',
+         github_link:'https://github.com/monkeyd87/weatherapp' ,
+         deployed_link:'https://monkeyd87.github.io/weatherapp/',
+     },
      {
          title:"Driddit",
          img:'/images/dreedit.png',
@@ -81,11 +95,18 @@ const introOptions = {
          deployed_link: "https://monkeyd87.github.io/yugiodeckbuilder"
      },
      {
-         title: 'Weather App',
-         img: '/images/weather.png',
+         title: 'Harvest  Heaven',
+         img: '/images/harvestheaven.png',
          technologies_used: 'HTML, CSS, JavaScript',
-         github_link:'https://github.com/monkeyd87/weatherapp' ,
-         deployed_link:'https://monkeyd87.github.io/weatherapp/',
+         github_link:'https://github.com/monkeyd87/havrvasheaven' ,
+         deployed_link:'',
+     },
+     {
+         title: 'Guess Who',
+         img: '/images/guesswho.png',
+         technologies_used: 'HTML, CSS, JavaScript',
+         github_link:'https://github.com/monkeyd87/guessWhomGame' ,
+         deployed_link:'https://monkeyd87.github.io/guessWhomGame/',
      },
     
  ]

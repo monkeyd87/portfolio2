@@ -9,13 +9,13 @@ import { faHtml5,faReact,faBootstrap,faCss3, faGit, faGithub, faGithubAlt, faGit
 
 export const Header = ()=>{
     return(
-        <Navbar expand="lg" className="bg-gray-900 rounded">
+        <Navbar expand="lg" className="bg-gray-900 rounded " sticky={true}>
         <Navbar.Brand href="#home"><strong className='text-white'>D</strong></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto justify-content-end text-white">
             <Nav.Link className='text-light' href="#about">About</Nav.Link>
-            <Nav.Link className='text-light' href="#project">Projects</Nav.Link>
+            <Nav.Link className='text-light' href="#projects">Projects</Nav.Link>
             <Nav.Link className='text-light' href="#contact">Contact</Nav.Link>
           </Nav>
           <Navbar.Text>

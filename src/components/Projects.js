@@ -6,7 +6,7 @@ export const Projects = ({id})=>{
     const ref = useRef(null)
     const isinview = useInView(ref,{once:true})
     return(
-        <div className="d-flex border-t-2 border-b-2 border-gray-500 ">
+        <div className="d-flex border-t-2 border-b-2 border-gray-500 " id={id}>
             <div className="right border-dark "style={{textOrientation:'mixed',writingMode:'vertical-rl'}}>
                 <h3>PROJECTS</h3>
             </div>
