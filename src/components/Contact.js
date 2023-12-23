@@ -24,9 +24,9 @@ export const Contact = (props) => {
 
   return (
 
-    <div className='d-flex justify-content-md-center justify-content-lg-center align-items-md-center align-items-sm-center align-items-center'>
+    <div className=' m-3  border rounded d-flex justify-content-md-center justify-content-lg-center align-items-md-center align-items-sm-center align-items-center'>
 
-      <Card className='col-sm-12 col col-md-6 col-lg-4 m-3 bg-dark text-light'>
+      <Card className=' bg-dark w-full text-light'>
         <Card.Body>
 
         </Card.Body>

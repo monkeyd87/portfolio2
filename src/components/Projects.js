@@ -28,7 +28,7 @@ export const Projects = ()=>{
 
                                 }}
                                 transition={{
-                                    delay:index*.05
+                                    delay:index*.1
                                 }}
 
 

@@ -10,14 +10,14 @@ import { Projects } from '@/components/Projects'
 
 export default function Home() {
   return (
-    <>
-      <Header/>
-      <Container fluid className='text-light'>
+    
+    <div  className='text-light'>
+        <Header/>
         <About/>
         <Projects/>
         <Contact id="contact"/>
         <Footer/>
-      </Container>
-    </>
+      </div>
+    
   )
 }
