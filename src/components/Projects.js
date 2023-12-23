@@ -36,6 +36,8 @@ export const Projects = ()=>{
                                 <Project
                                     title={project.title}
                                     img={project.img&&project.img}
+                                    link={project.deployed_link}
+                                    git={project.github_link}
                                 />
                             </motion.div>
                         )

@@ -16,6 +16,7 @@ export default function Home() {
         <About/>
         <Projects/>
         <Contact id="contact"/>
+        <Footer/>
       </Container>
     </>
   )

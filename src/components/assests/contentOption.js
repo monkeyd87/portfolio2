@@ -71,7 +71,7 @@ const introOptions = {
          img:'/images/dreedit.png',
          technologies_used: 'HTML, CSS, JavaScript, React, Node',
          github_link: 'https://github.com/monkeyd87/driddit',
-         deployed_link: 'monkeyd87.github.io/driddit',
+         deployed_link: 'https://monkeyd87.github.io/driddit',
      },
      {
          title: 'yugiodeckbuilder',
