@@ -3,14 +3,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCode } from '@fortawesome/free-solid-svg-icons'
 import { faHtml5,faReact,faBootstrap,faCss3, } from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image'
-import {motion,stagger, useAnimate} from 'framer-motion'
+import {motion,stagger, useAnimate,useInView} from 'framer-motion'
+import { useRef } from 'react'
 
 
 export const Project = ({title,tech,img,git,link,...props})=>{
-
+    const ref = useRef(null)
+    const isinview = useInView(ref,{once:true})
     return(
         <>
-            <Card bg='dark border border-dark shadow  ' style={{color:'white'}}>
+            <Card ref={ref} bg='dark border border-dark shadow  project' style={{color:'white'}}>
                 <Card.Title className='text-center'>{title}</Card.Title>
                 <Card.Body>
                     <img src={img}/>

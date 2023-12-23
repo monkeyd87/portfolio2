@@ -1,9 +1,10 @@
 import { Project } from "./Project"
 import {projects} from '../components/assests/contentOption'
-import {motion} from 'framer-motion'
-
+import {motion,useInView} from 'framer-motion'
+import { useRef } from "react"
 export const Projects = ()=>{
-
+    const ref = useRef(null)
+    const isinview = useInView(ref,{once:true})
     return(
         <div className="d-flex border-t-2 border-b-2 border-gray-500 ">
             <div className="right border-dark "style={{textOrientation:'mixed',writingMode:'vertical-rl'}}>
@@ -14,16 +15,16 @@ export const Projects = ()=>{
                     {projects.map((project,index)=>{
 
                         return(
-                            <motion.div className=" col-sm-5 col-lg-3"
+                            <motion.div ref={ref} className=" col-sm-5 col-lg-3"
                                 initial={{
                                     scale:0,
                                     opacity:0,
                                     y:-1
                                 }}
                                 animate={{
-                                    scale:1,
-                                    y:1,
-                                    opacity:100
+                                    scale:isinview?1:0,
+                                    y:isinview?1:0,
+                                    opacity:isinview?100:0
 
                                 }}
                                 transition={{
