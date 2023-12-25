@@ -4,18 +4,40 @@ import {faCode, faLink } from '@fortawesome/free-solid-svg-icons'
 import { faHtml5,faReact,faBootstrap,faCss3, faGit, faGithub, faGithubAlt, faGithubSquare, } from '@fortawesome/free-brands-svg-icons'
 import Image from 'next/image'
 import {motion,stagger, useAnimate,useInView} from 'framer-motion'
-import { useRef } from 'react'
+import { useRef,useState} from 'react'
 
 
-export const Project = ({title,tech,img,git,link,...props})=>{
+export const Project = ({title,tech,img,git,link,gif,video,onClick,...props})=>{
     const ref = useRef(null)
     const isinview = useInView(ref,{once:true})
+    const [ishovered, setIsHovered] = useState(false)
+
+    const mouseOver = ()=>{
+        setIsHovered(true)
+    }
+    const mouseOut = ()=>{
+        setIsHovered(false)
+    }
+
     return(
         <>
-            <Card ref={ref} bg='dark border border-dark shadow  project' style={{color:'white'}}>
+            <Card ref={ref} bg='dark border border-dark shadow  project' style={{color:'white'}}
+               
+            >
                 <Card.Title className='text-center'>{title}</Card.Title>
-                <Card.Body>
-                    <img src={img}/>
+                <Card.Body className='cursor-pointer' onClick={()=>{
+                   
+                    onClick({
+                        title,
+                        tech,
+                        git,
+                        link,
+                        gif,
+                        video
+                    })
+
+                }}>
+                    <img src={!ishovered?img:gif}/>
                    
                     <Card.Text></Card.Text>
 
