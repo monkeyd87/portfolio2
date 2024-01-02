@@ -15,7 +15,7 @@
      {
          title: 'Aesthete',
          img:'/images/aesthete.png',
-         technologies_used: ["JavaScript","MongoDB","HTML","CSS"],
+         technologies_used: ["JavaScript","Node.js","MongoDB","HTML","CSS","BootStrap"],
          video:<iframe src="https://drive.google.com/file/d/1Vg5VNAzgMBCNtgClw-Y8npJidkBiD6ZF/preview" width="640" height="480" allow="autoplay"></iframe>,
          github_link:'https://github.com/monkeyd87/aesthete' ,
          deployed_link:'https://murmuring-inlet-34782.herokuapp.com/',
@@ -31,7 +31,7 @@
      {
          title: 'School Incident Reporter',
          img: '/images/incident.png',
-         technologies_used: ["HTML", "CSS", "JavaScript", "React", "Node",],
+         technologies_used: ["HTML", "CSS", "JavaScript", "React", "Node.js","Express,Bootstrap"],
          github_link: 'https://github.com/monkeyd87/incidentreport',
          video:<iframe src="https://drive.google.com/file/d/1fPTW1ohyjCDq7nwTRApQPoe5FOpTAeMQ/preview" width="640" height="480" allow="autoplay"></iframe>,
          deployed_link: 'https://wlcpincidentreport-b83c7d609aa0.herokuapp.com/#/home',
@@ -48,7 +48,7 @@
      {
          title:"Driddit",
          img:'/images/dreedit.png',
-         technologies_used: ["HTML", "CSS", "JavaScript", "React", "Node"],
+         technologies_used: ["HTML", "CSS", "JavaScript", "React", "Node",'Bootstrap'],
          github_link: 'https://github.com/monkeyd87/driddit',
          video:<iframe src="https://drive.google.com/file/d/17c6Jzr8Xm22P-1JFVv2w0lah9JzdDaXv/preview" width="640" height="480" allow="autoplay"></iframe>,
          deployed_link: 'https://monkeyd87.github.io/driddit',
@@ -72,7 +72,7 @@
         {
             title: 'Harvest  Heaven',
             img: '/images/harvestheaven.png',
-            technologies_used: ["HTML", "CSS", "JavaScript"],
+            technologies_used: ["HTML", "CSS", "JavaScript","MongoDB"],
             github_link:'https://github.com/monkeyd87/havrvasheaven[' ,
             deployed_link:'',
         },
