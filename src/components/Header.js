@@ -12,9 +12,7 @@ import { useEffect,useState } from 'react';
 
 export const Header = ()=>{
   
-   let view  = localStorage.view || 0
-  view ++
-  localStorage.view = view
+    const [view,setView] = useState(0)
    
     return(
         <Navbar expand="lg" className="bg-gray-900 rounded " sticky={true}>
